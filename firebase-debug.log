@@ -1,0 +1,28 @@
+[debug] [2017-06-03T06:36:55.130Z] ----------------------------------------------------------------------
+[debug] [2017-06-03T06:36:55.132Z] Command:      /Users/sam/.nvm/versions/node/v7.10.0/bin/node /Users/sam/.nvm/versions/node/v7.10.0/bin/firebase serve
+[debug] [2017-06-03T06:36:55.133Z] CLI Version:  3.9.1
+[debug] [2017-06-03T06:36:55.133Z] Platform:     darwin
+[debug] [2017-06-03T06:36:55.133Z] Node Version: v7.10.0
+[debug] [2017-06-03T06:36:55.134Z] Time:         Sat Jun 03 2017 16:36:55 GMT+1000 (AEST)
+[debug] [2017-06-03T06:36:55.134Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-03T06:36:55.152Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-03T06:36:55.152Z] > authorizing via signed-in user
+[debug] [2017-06-03T06:36:55.155Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/polymer-webapp  
+ Sat Jun 03 2017 16:36:55 GMT+1000 (AEST)
+[debug] [2017-06-03T06:36:56.896Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-03T06:36:56.897Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/polymer-webapp/tokens  
+ Sat Jun 03 2017 16:36:56 GMT+1000 (AEST)
+[debug] [2017-06-03T06:36:57.701Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/sam/coding/polymer-webapp'...
+[info] 
+[debug] [2017-06-03T06:36:57.706Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/polymer-webapp  
+ Sat Jun 03 2017 16:36:57 GMT+1000 (AEST)
+[debug] [2017-06-03T06:36:58.978Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-03T06:36:58.978Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/36158248849/clients/_:getWebAppConfig  
+ Sat Jun 03 2017 16:36:58 GMT+1000 (AEST)
+[debug] [2017-06-03T06:37:01.292Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
